@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+html {
+  /* zoom:calc(100%/360); */
+
+  /* background-color: darkgreen; */
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: 95%;
+  width: 100%;
+
+  background-color: rgb(255,255,252);
+}
+
+main {
+  padding-bottom: 50px;
+}
+
+.active {
+  text-decoration: none;
+
+  background-image: url("./images/fish_icon.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  /* background-attachment: fixed; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a { text-decoration: none; color:black; }
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
+
+.announcements {
+  width: 95%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  /* background-image: url("./images/face_icon.png");
+  background-position: 30% 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed; */
+
+  text-align: center;
+
+  /* background-color: blueviolet; */
+}
+
+.btn {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  display: grid;
+  margin-bottom: 2%;
+  background-color: rgb(248, 239, 227);
+  box-shadow: 1px 1px rgb(173, 173, 173);
+}
+
+p a {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  body {
+    width: 1100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

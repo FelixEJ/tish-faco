@@ -1,0 +1,6 @@
+{
+	"SourceDir": "G:\\repos\\aws-test-site",
+	"DistributionDir": "G:\\repos\\aws-test-site\\build",
+	"BuildCommand": "npm.cmd run-script build",
+	"StartCommand": "npm.cmd run-script start"
+}

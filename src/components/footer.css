@@ -1,0 +1,52 @@
+.Footer {
+  background-color: rgb(56, 56, 56);
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* max-height: 50px; */
+}
+
+table {
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+th,
+td {
+  /* border: 1px solid black; */
+}
+
+.Footer img {
+  padding: 5%;
+  width: 35%;
+}
+
+@media only screen and (min-width: 600px) {
+  .Footer {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Footer img {
+    padding: 5%;
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+    .Footer {
+      width: 1100px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .Footer img {
+      padding: 5%;
+      width: 20%;
+    }
+  }

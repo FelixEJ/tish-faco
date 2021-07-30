@@ -1,0 +1,48 @@
+.menuItem {
+  /* background-color: cadetblue; */
+  /* padding-bottom: 20px; */
+  padding-top: 7%;
+  text-align: center;
+  width: 100%;
+}
+
+.itemTitle {
+  /* background-color: rgb(27, 239, 247); */
+
+  display: inline;
+}
+
+.itemPrice {
+  /* background-color: rgb(190, 206, 46); */
+
+  text-align: left;
+  float: right;
+  padding-right: 5%;
+  margin: 1%;
+  display: block;
+}
+
+.itemType {
+  /* background-color: rgb(31, 204, 83); */
+
+  text-align: center;
+  display: inline;
+  padding-left: 2%;
+  margin: 1%;
+}
+
+.itemDesc {
+  /* background-color: rgb(187, 41, 131); */
+
+  /* text-align: center; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.opt1 {
+
+}
+
+.opt2 {
+  
+}
