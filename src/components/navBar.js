@@ -6,7 +6,7 @@ class NavBar extends Component {
   render() {
     return (
       <div>
-        <div className="barNav">
+        <div className="barNav" id="barNav">
           <table >
             <thead className="navTable">
               <th className="nav-item">
@@ -32,7 +32,7 @@ class NavBar extends Component {
             </thead>
           </table>
         </div>
-      </div>
+      </div>      
     );
   }
 }

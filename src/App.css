@@ -78,7 +78,7 @@ a:focus { text-decoration: none; color:black; }
 a:hover, a:active { text-decoration: none; color:black }
 
 .announcements {
-  width: 95%;
+  width: 100%;
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 1%;

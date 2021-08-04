@@ -3,12 +3,12 @@
   /* padding-bottom: 20px; */
   padding-top: 7%;
   text-align: center;
-  width: 100%;
+  width: 95%;
 }
 
 .itemTitle {
   /* background-color: rgb(27, 239, 247); */
-
+  padding-left: 15%;
   display: inline;
 }
 
@@ -35,8 +35,8 @@
   /* background-color: rgb(187, 41, 131); */
 
   /* text-align: center; */
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .opt1 {

@@ -3,7 +3,7 @@ import "./menuItem.css";
 
 const MenuItem = ({ item }) => {
   return (
-    <div className="menuItem">
+    <div className="menuItem" id="menuItem">
       <h2 className="itemTitle">{item.title}</h2>
       <h3 className="itemPrice">${item.price}</h3>
       <h4 className="itemType">{item.type}</h4>

@@ -10,7 +10,6 @@ class Footer extends Component {
     return (
       <div className="Footer">
         <table>
-          <thead>
             <tr>
               <th>
                 <a href="https://www.facebook.com/tishfaco">
@@ -33,7 +32,6 @@ class Footer extends Component {
                 </a>
               </th>
             </tr>
-          </thead>
         </table>
       </div>
     );
