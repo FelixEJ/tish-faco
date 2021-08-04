@@ -7,14 +7,13 @@ function importAll(images) {
 }
 
 const gallery = importAll(require.context('../images/pics/', false, /\.png$/));
-console.log(gallery[0]);
+// console.log(gallery[0]);
 
 const Gallery = () => {
   return (
     <div className="gallery">
       {gallery.map((image) => {
         return <Image key={image.default} image={image}></Image>
-        // return <img src={pic1}></img>
       })}
     </div>
   );

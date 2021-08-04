@@ -23,6 +23,7 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.3",
     "react-transition-group": "^4.4.2",
+    "render-smooth-image-react": "^1.0.3",
     "styled-components": "^5.3.0",
     "typescript": "^4.3.5",
     "web-vitals": "^1.1.2"
