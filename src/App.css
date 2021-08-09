@@ -53,6 +53,8 @@ body {
   width: 100%;
 
   background-color: rgb(255,255,252);
+  background-image: linear-gradient(#f9adca, #fffffc);
+  background-repeat: no-repeat;
 }
 
 main {

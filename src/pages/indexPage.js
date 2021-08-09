@@ -6,6 +6,10 @@ import Footer from "../components/footer";
 import ScrollTopButton from "../components/scrollTopButton.js";
 import { snackData } from "../data/snacks.js";
 import { tacoData } from "../data/tacos.js";
+import { mainsData} from "../data/mains.js";
+import { cocktailsData } from "../data/cocktails.js";
+import { drinksData } from "../data/drinks.js";
+import { spiritsData } from "../data/spirits.js";
 import "../App.css";
 
 const IndexPage = () => {
@@ -30,6 +34,10 @@ const IndexPage = () => {
       </div>      
       <MenuCollapse menu={tacoData} pageTitle="TACOS"></MenuCollapse>
       <MenuCollapse menu={snackData} pageTitle="SNACKS"></MenuCollapse>
+      <MenuCollapse menu={mainsData} pageTitle="MAINS"></MenuCollapse>
+      <MenuCollapse menu={cocktailsData} pageTitle="COCKTAILS"></MenuCollapse>
+      <MenuCollapse menu={drinksData} pageTitle="DRINKS"></MenuCollapse>
+      <MenuCollapse menu={spiritsData} pageTitle="SPIRITS"></MenuCollapse>
       <ScrollTopButton />
       <Footer />
     </div>
