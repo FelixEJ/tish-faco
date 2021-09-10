@@ -11,7 +11,7 @@ const EventsPage = () => {
       <LogoHeader />
       <NavBar />
       <h1 className="title">Events</h1>
-      <p className="textBlock">We have local and touring artists playing live from 3-5pm most Sundays, check out our <a href="https://www.facebook.com/tishfaco">Facebook</a> page for the details.</p>
+      <p className="textBlock">Events temporarily suspended due to covid restrictions, check out our <a href="https://www.facebook.com/tishfaco">Facebook</a> page for the details.</p>
       <Footer />
     </div>
   );

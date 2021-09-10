@@ -10,6 +10,8 @@ import { mainsData} from "../data/mains.js";
 import { cocktailsData } from "../data/cocktails.js";
 import { drinksData } from "../data/drinks.js";
 import { spiritsData } from "../data/spirits.js";
+import { mealPacksData } from "../data/mealPacks.js";
+import { mealsData } from "../data/meals.js";
 import "../App.css";
 
 const IndexPage = () => {
@@ -32,12 +34,12 @@ const IndexPage = () => {
           treats!
         </p>
       </div>      
-      <MenuCollapse menu={tacoData} pageTitle="TACOS"></MenuCollapse>
+      <MenuCollapse menu={mealPacksData} pageTitle="MEAL PACKS"></MenuCollapse>
       <MenuCollapse menu={snackData} pageTitle="SNACKS"></MenuCollapse>
-      <MenuCollapse menu={mainsData} pageTitle="MAINS"></MenuCollapse>
-      <MenuCollapse menu={cocktailsData} pageTitle="COCKTAILS"></MenuCollapse>
+      <MenuCollapse menu={mealsData} pageTitle="MEALS"></MenuCollapse>
+      {/* <MenuCollapse menu={cocktailsData} pageTitle="COCKTAILS"></MenuCollapse>
       <MenuCollapse menu={drinksData} pageTitle="DRINKS"></MenuCollapse>
-      <MenuCollapse menu={spiritsData} pageTitle="SPIRITS"></MenuCollapse>
+      <MenuCollapse menu={spiritsData} pageTitle="SPIRITS"></MenuCollapse> */}
       <ScrollTopButton />
       <Footer />
     </div>

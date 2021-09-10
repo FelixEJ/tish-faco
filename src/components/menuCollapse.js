@@ -59,8 +59,8 @@ class MenuCollapse extends Component {
             display: display ? "block" : "none",
           }}
         >
-          {menu.map((item) => {
-            return <MenuItem key={item.title} item={item}></MenuItem>;
+          {menu.map((item, index) => {
+            return <MenuItem key={index} item={item}></MenuItem>;
           })}
         </div>
       </div>
