@@ -5,24 +5,24 @@ export const tacoData = [
     type: "",
     description: "Tempura or Grilled Fresh Local Fish, Slaw, Pico De Gallo & Chipotle Mayo",
   },
-  {
-    title: "Soft Shell Crab",
-    price: "$8",
-    type: "",
-    description: "Chilli & Cumin Crispy Soft Shell Crab, Asian Slaw, Pickled Carrots w/ Sriracha Mayo",
-  },
+  // {
+  //   title: "Soft Shell Crab",
+  //   price: "$8",
+  //   type: "",
+  //   description: "Chilli & Cumin Crispy Soft Shell Crab, Asian Slaw, Pickled Carrots w/ Sriracha Mayo",
+  // },
   {
     title: "Squid",
     price: "$8",
     type: "",
     description: "Chilli, Garlic, Ginger Grilled Squid on Asian Slaw w/ Shallots & Sesame Seeds",
   },
-  {
-    title: "Pork",
-    price: "$8",
-    type: "",
-    description: "Slow Cooked Korean Style Local Pork Shoulder on Asian Slaw w/ Pineapple Salsa, Shallots & Sesame Seeds",
-  },
+  // {
+  //   title: "Pork",
+  //   price: "$8",
+  //   type: "",
+  //   description: "Slow Cooked Korean Style Local Pork Shoulder on Asian Slaw w/ Pineapple Salsa, Shallots & Sesame Seeds",
+  // },
   {
     title: "Chicken",
     price: "$7",
@@ -53,10 +53,10 @@ export const tacoData = [
     type: "(v)",
     description: "Grilled Halloumi, Char Grilled Asparagus, Slaw, Davidson Plum Sauce & Corn Salsa",
   },
-  {
-    title: "Chipotle Mushroom",
-    price: "$7",
-    type: "(vgn)",
-    description: "Local Mushrooms Marinated in Chipotle & Baked, Slaw, Corn Salsa",
-  },
+  // {
+  //   title: "Chipotle Mushroom",
+  //   price: "$7",
+  //   type: "(vgn)",
+  //   description: "Local Mushrooms Marinated in Chipotle & Baked, Slaw, Corn Salsa",
+  // },
 ];

@@ -28,41 +28,45 @@ const TextBlock = () => {
         <br />
         <br />
         Our humble beginnings as a pop up food truck means we are ready and
-        waiting for catering and events, email us at <a href="mailto:contact@tishfaco.com.au">contact@tishfaco.com.au</a> with your needs and we will get you sorted.
+        waiting for catering and events, email us at{" "}
+        <a href="mailto:contact@tishfaco.com.au">
+          contact@tishfaco.com.au
+        </a>{" "}
+        with your needs and we will get you sorted.
       </p>
       <table className="opening">
-          <tr>
-              <th>Opening</th>
-              <th>Hours</th>
-          </tr>
-          <tr>
-              <td>Thursday</td>
-              <td>3pm - 8:30pm</td>
-          </tr>
-          <tr>
-              <td>Friday</td>
-              <td>3pm - 10pm</td>
-          </tr>
-          <tr>
-              <td>Saturday</td>
-              <td>3pm - 10pm</td>
-          </tr>
-          <tr>
-              <td>Sunday</td>
-              <td>3pm - 8pm</td>
-          </tr>
-          <tr>
-              <td>Monday</td>
-              <td>3pm - 8:30pm</td>
-          </tr>
-          <tr>
-              <td>Tuesday</td>
-              <td>Closed</td>
-          </tr>
-          <tr>
-              <td>Wednesday</td>
-              <td>Closed</td>
-          </tr>
+        <tr>
+          <th>Opening</th>
+          <th>Hours</th>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>5pm - 8:30pm</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>5pm - 8:30pm</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>5pm - 8:30pm</td>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>5pm - 8:30pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>Closed</td>
+        </tr>
       </table>
     </div>
   );
