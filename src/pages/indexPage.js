@@ -36,12 +36,12 @@ const IndexPage = () => {
       </div>      
       <MenuCollapse menu={tacoData} pageTitle="TACOS"></MenuCollapse>
       {/* <MenuCollapse menu={mealPacksData} pageTitle="MEAL PACKS"></MenuCollapse> */}
-      <MenuCollapse menu={snackData} pageTitle="SNACKS"></MenuCollapse>
-      <MenuCollapse menu={mainsData} pageTitle="MAINS"></MenuCollapse>
+      <MenuCollapse menu={snackData} pageTitle="NOT TACOS"></MenuCollapse>
+      {/* <MenuCollapse menu={mainsData} pageTitle="MAINS"></MenuCollapse> */}
       {/* <MenuCollapse menu={mealsData} pageTitle="MEALS"></MenuCollapse> */}
       <MenuCollapse menu={cocktailsData} pageTitle="COCKTAILS"></MenuCollapse>
       <MenuCollapse menu={drinksData} pageTitle="DRINKS"></MenuCollapse>
-      <MenuCollapse menu={spiritsData} pageTitle="SPIRITS"></MenuCollapse>
+      {/* <MenuCollapse menu={spiritsData} pageTitle="SPIRITS"></MenuCollapse> */}
       <ScrollTopButton />
       <Footer />
     </div>

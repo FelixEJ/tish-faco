@@ -20,10 +20,15 @@ export const cocktailsData = [
         description: "Tequila, Fresh Grapefruit & Lime Juices, Soda"
     },
     {
-        title: "Mexican Mule",
-        price: "$16",
-        description: "Tequila, Bellingen Ginger Beer & Lime"
+        title: "Bellingen South Side",
+        price: "$15",
+        description: "Ink Gin, Fresh Lime Juice and Mint"
     },
+    // {
+    //     title: "Mexican Mule",
+    //     price: "$16",
+    //     description: "Tequila, Bellingen Ginger Beer & Lime"
+    // },
     {
         title: "Grapefruit Shandy",
         price: "$12",
@@ -45,14 +50,19 @@ export const cocktailsData = [
         description: "Tequila Blanco + Respardo + Mescal, Passionfruit, Lemon, Lime, Almond & Soda"
     },
     {
-        title: "Mulled Sangria",
+        title: "Sangria",
         price: "$10/25",
-        description: "Red Wine, Tawny, ORange Slices, Cinnamon, Star Anise, Clove",
+        description: "Red Wine, Tawny, Orange Slices, Cinnamon, Star Anise, Clove",
         opt1: "Jugs Available"
     },
     {
-        title: "Espresso Martini xo",
-        price: "$17",
-        description: "Cafe Patron XO, Tequila, Espresso"
+        title: "Never Never Iced Tea",
+        price: "$20",
+        description: "1800 Coconut Tequila, Kraken Spiced Rum, Vodka, Gin, Cointreau, Almond & Mexican Cola"
     },
+    // {
+    //     title: "Espresso Martini xo",
+    //     price: "$17",
+    //     description: "Cafe Patron XO, Tequila, Espresso"
+    // },
 ]

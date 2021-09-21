@@ -41,12 +41,12 @@ export const tacoData = [
     type: "(vgn)",
     description: "Local Lupin Bean Furikake Tempeh, Asian Slaw, Snowpea, Mint & Wasabi Mayo",
   },
-  {
-    title: "Cauliflower",
-    price: "$7",
-    type: "(vgn)",
-    description: "Tempura Cauliflower Tossed in Hot Sauce, Fresh Salsa, Minted Coconut Yogurt",
-  },
+  // {
+  //   title: "Cauliflower",
+  //   price: "$7",
+  //   type: "(vgn)",
+  //   description: "Tempura Cauliflower Tossed in Hot Sauce, Fresh Salsa, Minted Coconut Yogurt",
+  // },
   {
     title: "Halloumi",
     price: "$7",

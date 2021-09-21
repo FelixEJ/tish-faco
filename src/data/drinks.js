@@ -11,11 +11,15 @@ export const drinksData = [
         price: "$4"
     },
     {
+        title: "Gurubachi Lemon Myrtle & Finger Lime Aus. Native Booch",
+        price: "$6"
+    },
+    {
         title: "Fresh Citrus & Soda",
         price: "$4"
     },
     {
-        title: "Homegrown Fresh OJ",
+        title: "Fresh Squeezed OJ",
         price: "$6"
     },
     {
@@ -50,7 +54,11 @@ export const drinksData = [
         price: "$8"
     },
     {
-        title: "Brouhaha Apricot Sour",
+        title: "'Tasman Tango' South Pacific Ale",
+        price: "$8"
+    },
+    {
+        title: "Bodriggy 'Aunty Margs' Grapefruit Mezcal Sour",
         price: "$9"
     },
     {
@@ -71,7 +79,7 @@ export const drinksData = [
         title: "XX Dos Equis Lager"
     },
     {
-        title: "Bellingen Brewery Ginger Beer"
+        title: "Red Earth Avocado Kolsch"
     },
     {
         title: "Great Hops Brewery Ar-Mid-Ale Mid Strength"
@@ -80,18 +88,24 @@ export const drinksData = [
         subTitle: "Wine $9/$38"
     },
     {
-        title: "J. Moreau & Fils Chardonnay - France 2019"
+        title: "Demuert Monastrelly Syrah Blend - Yecla, Spain 2017"
     },
     {
-        title: "Christmont La Zona Pinot Grigio - King Valley, VIC 2020"
+        title: "Demuert Sauvignon Blanc Verdejo - Yecla, Spain 2019"
     },
     {
-        title: "Coombe Farm NV Estate Sparkling - Yarra Valley, VIC"
+        title: "Estandon French Rose - Var, France 2020"
     },
     {
-        title: "Reserve des Vignerons Rose - St-Cyr-en_Bourg, France 2018"
+        title: "Koonowla Pinot Gris - Clare Valley, Australia 2020"
     },
     {
-        title: "Demuerte Monastrell y Syrah Blend - Yecla, Spain 2017"
+        title: "Koonowla Restiling - Clare Valley, Australia 2019"
+    },
+    {
+        title: "Lost Farm Chardonnay - Tamar Valley, Australia 2019"
+    },
+    {
+        title: "Villa Jolanda Prosecco - Piedmont, Italy"
     },
 ]
