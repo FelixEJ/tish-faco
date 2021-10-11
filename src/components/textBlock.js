@@ -3,7 +3,7 @@ import "./textBlock.css";
 
 const TextBlock = () => {
   return (
-    <div>
+    <div className="textPage">
       <h1 className="title">About Us</h1>
       <p className="textBlock">
         Tish Faco Cantina brings the fresh tastes of the Californian/Mexican

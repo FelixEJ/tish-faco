@@ -29,6 +29,12 @@ class MenuCollapse extends Component {
       <div id="frame">
         <div id={pageTitle}></div>
         <Link to={pageTitle} spy={true} smooth={true}>
+          <img
+            id="left"
+            src={birdLeft}
+            alt="Colourful bird in mexican art style"
+          ></img>
+
           <h1
             className="menuHeading"
             onClick={this.toggle}
@@ -38,7 +44,13 @@ class MenuCollapse extends Component {
           <h3 id="darrow"
           style={{
             display: display ? "none" : "inline",
-          }}>&darr;</h3>          
+          }}>&darr;</h3>
+
+          <img
+            id="right"
+            src={birdRight}
+            alt="Colourful bird in mexican art style"
+          ></img>
         </Link>
         <div
           className="menuBody"

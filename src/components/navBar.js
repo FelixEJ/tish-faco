@@ -11,22 +11,22 @@ class NavBar extends Component {
             <thead className="navTable">
               <th className="nav-item">
                 <NavLink exact={true} className="nav-link" to="/">
-                  Menus
+                  MENU
                 </NavLink>
               </th>
               <th className="nav-item">
                 <NavLink className="nav-link" to="/eventsPage">
-                  Events
+                  EVENTS
                 </NavLink>
               </th>
               <th className="nav-item">
                 <NavLink className="nav-link" to="/galleryPage">
-                  Gallery
+                  GALLERY
                 </NavLink>
               </th>
               <th className="nav-item">
                 <NavLink className="nav-link" to="/aboutPage">
-                  About Us
+                  ABOUT US
                 </NavLink>
               </th>
             </thead>

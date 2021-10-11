@@ -1,19 +1,24 @@
 #frame {
   width: 98%;
   margin-left: 1%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   position: relative;
 
   /* background-image: url("../images/face_icon.png"); */
   background-position: 30% 80%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-attachment: fixed;
+  background-attachment: fixed;  
 
   text-align: center;
 
   /* background-color: crimson; */
+}
+
+h1 {
+  color: #ac2e21;
+  font-size: 3em;
 }
 
 .menuBody {
@@ -30,7 +35,7 @@
   /* text-align: center; */
   /* padding-left: 15%; */
   display: inline;
-  text-shadow: 1px 2px #9e9e9e;
+  /* text-shadow: 1px 2px #9e9e9e; */
 }
 
 #left {

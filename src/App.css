@@ -52,19 +52,29 @@ body {
   height: 95%;
   width: 100%;
 
-  background-color: rgb(255,255,252);
-  background-image: linear-gradient(#f9adca, #fffffc);
+  background-color: #f8c6d9;
+  /* background-image: linear-gradient(#f9adca, #fffffc); */
   background-repeat: no-repeat;
 }
 
 main {
-  padding-bottom: 50px;
+  padding-bottom: 2vh;
+  max-width: 1100px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+  text-align: center;
+  color: #ac2e21;
+  font-size: 1.2em;
 }
 
 .active {
   text-decoration: none;
 
-  background-image: url("./images/fish_icon.png");
+  /* background-image: url("./images/fish_icon.png"); */
   background-repeat: no-repeat;
   background-size:contain;
   background-position: center;
@@ -73,11 +83,20 @@ main {
   padding-bottom: 10px;
 }
 
-a { text-decoration: none; color:black; }
-a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:black; }
-a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:black }
+a { text-decoration: none; color:#ac2e21; }
+a:visited { text-decoration: none;  }
+a:hover { text-decoration: none;  }
+a:focus { text-decoration: none;  }
+a:hover, a:active { text-decoration: none;  }
+
+#order {
+  color: #f8c6d9;
+}
+
+#id, #address {
+  color:#ac2e21;
+  text-decoration: none;
+}
 
 .announcements {
   width: 100%;
@@ -100,21 +119,24 @@ a:hover, a:active { text-decoration: none; color:black }
 .btn {
   text-align: center;
   margin: auto;
+  margin-top: 5vh;
+  width: 70vw;
+  max-width: 300px;
   display: flex;
   justify-content: center;
   display: grid;
   margin-bottom: 2%;
-  background-color: rgb(248, 239, 227);
-  box-shadow: 1px 1px rgb(173, 173, 173);
+  background-color: #dc4031;
+  font-size: 1.5em;
 }
 
 p a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 600px) {
   body {
-    width: 600px;
+    /* width: 95%; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -123,7 +145,7 @@ p a {
 
 @media only screen and (min-width: 1100px) {
   body {
-    width: 1100px;
+    /* width: 95%; */
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -12,10 +12,15 @@
   background-attachment: fixed; */
 }
 
+.textPage {
+  display: block;
+}
+
 .opening {
   padding-bottom: 5%;
   width: 60%;
   text-align: center;
+  color: #ac2e21;
 
   display: block;
   margin-left: auto;
