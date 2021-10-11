@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import MenuItem from "./menuItem";
 import "./menu.css";
-import birdLeft from "../images/bird_icon_left.png";
-import birdRight from "../images/bird_icon_right.png";
 import { Link } from "react-scroll";
 
 class MenuCollapse extends Component {

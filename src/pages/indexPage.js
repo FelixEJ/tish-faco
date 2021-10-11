@@ -1,7 +1,6 @@
 import React from "react";
 import LogoHeader from "../components/header.js";
 import NavBar from "../components/navBar";
-import NavBar2 from "../components/navBar copy.js";
 import MenuCollapse from "../components/menuCollapse";
 import Footer from "../components/footer";
 import ScrollTopButton from "../components/scrollTopButton.js";
