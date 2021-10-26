@@ -1,12 +1,17 @@
 body {
   margin: 0;
   /* font-family:'Times New Roman', Times, serif; */
-  font-family: 'IBM Plex Serif', serif;
+  font-family: Museo Slab W01_500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
 }
 
-code {
+@font-face{
+  font-family:"Museo Slab W01_500";
+  src:url("Fonts/905342/16bb87bf-d138-429b-bc78-dae6c4f109fb.woff2") format("woff2"),url("Fonts/905342/3cf54835-9705-474e-9afa-46f2d59589e7.woff") format("woff");
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
