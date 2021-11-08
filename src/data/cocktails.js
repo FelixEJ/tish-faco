@@ -1,68 +1,57 @@
 export const cocktailsData = [
     {
+        title: "Tish Margarita",
+        price: "$16",
+        description: "Tequila, Lime, Lemon Myrtle Infused Cointreau"
+    },
+    {
         title: "Passionfruit Margarita",
         price: "$17",
-        description: "Tequila, Aperol, Lime Juice & Passionfruit"
+        description: "Blanco Tequila, Aperol, Lime, Passionfruit"
     },
     {
         title: "Hot & Spicy Margarita",
         price: "$17",
-        description: "Chili Infused Tequila, Lemon Myrtle Cointreau, Lime"
+        description: "Tequila Infused with Chillies in house, Lime, Lemon Myrtle Infused Cointreau"
     },
     {
         title: "Frozen Margarita",
         price: "$10",
-        description: "Tequila, Triple Sec, Agave Nectar & Lime"
-    },
-    {
-        title: "Hyde St Paloma",
-        price: "$17",
-        description: "Tequila, Fresh Grapefruit & Lime Juices, Soda"
+        description: "Tequila, Fresh Grapefruit, Lime & Topped with Guava Soda"
     },
     {
         title: "Bellingen South Side",
         price: "$15",
         description: "Ink Gin, Fresh Lime Juice and Mint"
     },
-    // {
-    //     title: "Mexican Mule",
-    //     price: "$16",
-    //     description: "Tequila, Bellingen Ginger Beer & Lime"
-    // },
     {
-        title: "Grapefruit Shandy",
-        price: "$12",
-        description: "Grapefruit Juice, Soda & YES CHEF Beer"
+        title: "White Sangria",
+        price: "$10/$25(Jug)",
+        description: "White Wine, Apple Brandy, Fresh Fruit & Mint"
+    },
+    {
+        title: "King Ceasar",
+        price: "$20",
+        description: "Vodka, Clamato Juice, Lemon Juice, Chipotle Hot Sauce, Vegan Worcestershire - Pickle Brine"
     },
     {
         title: "Michelada",
         price: "$10",
-        description: "Dos Equis, Vegan Worcesterchire, Lime & V8 Juice"
-    },
-    {
-        title: "Tish Faco Bloody Mary",
-        price: "$17",
-        description: "Vodka, V8 Juice, Lemon, Vegan Worcesterchire & Hot Sauce of your Choice"
+        description: "Dos Equis Lager, Vegan Worcesterchire, Lime & V8 Juice"
     },
     {
         title: "Saint of Death",
         price: "$18",
-        description: "Tequila Blanco + Respardo + Mescal, Passionfruit, Lemon, Lime, Almond & Soda"
+        description: "Tequilla Blanco + Reposada + Mezcal, Passionfruit, Lemon, Lime, Almond & Soda"
     },
     {
-        title: "Sangria",
-        price: "$10/25",
-        description: "Red Wine, Tawny, Orange Slices, Cinnamon, Star Anise, Clove",
-        opt1: "Jugs Available"
+        title: "Espresso Martini XO",
+        price: "$17",
+        description: "Cafe Patron XO, Tequila Blanco, Espresso"
     },
     {
         title: "Never Never Iced Tea",
         price: "$20",
         description: "1800 Coconut Tequila, Kraken Spiced Rum, Vodka, Gin, Cointreau, Almond & Mexican Cola"
-    },
-    // {
-    //     title: "Espresso Martini xo",
-    //     price: "$17",
-    //     description: "Cafe Patron XO, Tequila, Espresso"
-    // },
+    },    
 ]

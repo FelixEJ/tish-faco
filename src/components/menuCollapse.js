@@ -31,7 +31,7 @@ class MenuCollapse extends Component {
             className="menuHeading"
             onClick={this.toggle}
           >
-            {pageTitle}
+            <i>{pageTitle}</i>
           </h1>
           <h3 id="darrow"
           style={{

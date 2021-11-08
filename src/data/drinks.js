@@ -1,6 +1,6 @@
 export const drinksData = [
     {
-        subTitle: "Non-Alcoholic"
+        subTitle: "NON-ALCOHOLIC"
     },
     {
         title: "Jarritos Mexican Cola",
@@ -11,7 +11,7 @@ export const drinksData = [
         price: "$4"
     },
     {
-        title: "Gurubachi Lemon Myrtle & Finger Lime Aus. Native Booch",
+        title: "Gurubachi Australian Native Booch",
         price: "$6"
     },
     {
@@ -27,7 +27,7 @@ export const drinksData = [
         price: "$7"
     },
     {
-        subTitle: "Beer"
+        subTitle: "BEER"
     },
     {
         title: "Tecate Cerveza",
@@ -46,7 +46,7 @@ export const drinksData = [
         price: "$8"
     },
     {
-        title: "BrewDog Punk IPA",
+        title: "BrewDog IPA",
         price: "$8"
     },
     {
@@ -54,12 +54,8 @@ export const drinksData = [
         price: "$8"
     },
     {
-        title: "'Tasman Tango' South Pacific Ale",
+        title: "'Pash the Magic Dragon' Passionfruit & Dragon Fruit Sour Ale",
         price: "$8"
-    },
-    {
-        title: "Bodriggy 'Aunty Margs' Grapefruit Mezcal Sour",
-        price: "$9"
     },
     {
         title: "Bodriggy 'Aunty Margs' Grapefruit Mezcal Sour",
@@ -70,13 +66,17 @@ export const drinksData = [
         price: "$12"
     },
     {
-        subTitle: "On Tap $5/$7"
+        title: "Mole Imperial Stout 8%",
+        price: "$12"
     },
     {
-        title: "Yes Chef Lager - Tish Faco"
+        subTitle: "BEER ON TAP $5/$7"
     },
     {
-        title: "XX Dos Equis Lager"
+        title: "Yes Chef Lager - Tish Faco House Lager"
+    },
+    {
+        title: "XX Dos Equis Mexican Lager"
     },
     {
         title: "Red Earth Avocado Kolsch"
@@ -85,27 +85,34 @@ export const drinksData = [
         title: "Great Hops Brewery Ar-Mid-Ale Mid Strength"
     },
     {
-        subTitle: "Wine $9/$38"
+        subTitle: "WINE $9/$38"
     },
     {
-        title: "Demuert Monastrelly Syrah Blend - Yecla, Spain 2017"
+        title: "Demuert Syrah - Spain",
+        description: "Fine bouquet of Red Fruits with soft undertone of oak & pastries"
     },
     {
-        title: "Demuert Sauvignon Blanc Verdejo - Yecla, Spain 2019"
+        title: "Demuert Sauvignon Blanc Verdejo - Spain",
+        description: "Fruit and WHite flowers, Peaches in Syrup and Nuances of Citrus"
     },
     {
-        title: "Estandon French Rose - Var, France 2020"
+        title: "Estandon Rose - France",
+        description: "Fresh aromas of Peaches and Pears, Strawberry and Lychee"
     },
     {
-        title: "Koonowla Pinot Gris - Clare Valley, Australia 2020"
+        title: "Koonowla Pinot Gris - Clare Valley, SA",
+        description: "Varietally expressive Pear flavours with a touch of spice"
     },
     {
-        title: "Koonowla Restiling - Clare Valley, Australia 2019"
+        title: "Koonowla Riesling - Clare Valley, SA",
+        description: "Exciting Citrus flavours in the Green and Yellow Fruit Spectrum"
     },
     {
-        title: "Lost Farm Chardonnay - Tamar Valley, Australia 2019"
+        title: "Lost Farm Chardonnay - Tasmania",
+        description: "White Peach, Nectarine, Cashew Nut and elegant oak"
     },
     {
-        title: "Villa Jolanda Prosecco - Piedmont, Italy"
+        title: "Villa Jolanda Prosecco - Veneto, Italy",
+        description: "Clean with lively aromatic Apple and Pear aromas"
     },
 ]
