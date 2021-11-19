@@ -1,14 +1,13 @@
 img {
-    width: 50vw;
-    max-width: 500px;
+  width: 50vw;
+  max-width: 500px;
 
-    
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .header {
-margin-top: 5vh;
-    margin-bottom: 5vh;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
 }
