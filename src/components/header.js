@@ -15,7 +15,6 @@ const LogoHeader = () => {
           To book please <u>Call us</u>
         </a>
       </p>
-      <p><BasicModal /></p>
     </div>
   );
 };
