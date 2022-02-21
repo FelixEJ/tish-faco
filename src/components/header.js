@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../images/tishfaco.png";
 import "./header.css";
-import BasicModal from "./imageModal";
 
 const LogoHeader = () => {
   return (
