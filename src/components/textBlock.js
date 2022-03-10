@@ -39,31 +39,31 @@ const TextBlock = () => {
           <th>Hours</th>
         </tr>
         <tr>
+          <td>Wednesday</td>
+          <td>5PM - 8.30PM</td>
+        </tr>
+        <tr>
           <td>Thursday</td>
-          <td>3PM - 8.30PM</td>
+          <td>5PM - 8.30PM</td>
         </tr>
         <tr>
           <td>Friday</td>
-          <td>3PM - 8.30PM</td>
+          <td>5PM - 8.30PM</td>
         </tr>
         <tr>
           <td>Saturday</td>
-          <td>3PM - 8.30PM</td>
+          <td>5PM - 8.30PM</td>
         </tr>
         <tr>
           <td>Sunday</td>
-          <td>3PM - 8.30PM</td>
+          <td>5PM - 8PM</td>
         </tr>
         <tr>
           <td>Monday</td>
-          <td>3PM - 8.30PM</td>
+          <td>5PM - 8.30PM</td>
         </tr>
         <tr>
           <td>Tuesday</td>
-          <td>Closed</td>
-        </tr>
-        <tr>
-          <td>Wednesday</td>
           <td>Closed</td>
         </tr>
         

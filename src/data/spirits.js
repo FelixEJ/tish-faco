@@ -1,5 +1,32 @@
 export const spiritsData = [
   {
+    subTitle: "HOUSE SPIRITS - $8",
+  },
+  {
+    title: "Espolon Blanco Tequila",
+  },
+  {
+    title: "Monte Alban Mezcal",
+  },
+  {
+    title: "Beefeater Gin",
+  },
+  {
+    title: "Havana Club Anejo Rum",
+  },
+  {
+    title: "Wyborowa Vodka",
+  },
+  {
+    title: "Kraken Spiced Rum",
+  },
+  {
+    title: "Bulleit 95 Rye Whiskey",
+  },
+  {
+    title: "Chivas Regal 12yo Blended Scotch Whisky",
+  },
+  {
     subTitle: "TEQUILA + MEZCAL",
   },
   {
@@ -19,20 +46,28 @@ export const spiritsData = [
     price: "$10",
   },
   {
-    title: "Tres Agaves Blanco",
-    price: "$15",
-  },
-  {
-    title: "Prospero Anejo",
-    price: "$12",
-  },
-  {
     title: "1800 Anejo",
     price: "$13",
   },
   {
     title: "1800 Coconut",
     price: "$13",
+  },
+  {
+    title: "Prospero Anejo",
+    price: "$12",
+  },
+  {
+    title: "Patron Repasado",
+    price: "$15",
+  },
+  {
+    title: "Illegal Mezcal",
+    price: "$15",
+  },
+  {
+    title: "Tres Agaves Blanco",
+    price: "$15",
   },
   {
     title: "Mount Compass Agave Spirit (AUS)",
@@ -43,70 +78,27 @@ export const spiritsData = [
     price: "$50",
   },
   {
-    title: "Illegal Mezcal",
-    price: "$15",
-  },  
-  {
-    title: "Monte Alban Mezcal",
-    price: "$10",
-  },
-  
-  {
-    subTitle: "HOUSE SPIRITS - $8",
-  },
-  {
-    title: "Espolon Blanco Tequila",
-  },
-  {
-    title: "Beefeater Gin",
-  },
-  {
-    title: "Havana Club Anejo Rum",
-  },
-  {
-    title: "Wyborowa Vodka",
-  },
-  {
-    title: "Kraken Spiced Rum",
-  },
-  {
-    title: "Bulleit 95 Rye Whiskey",
-  },
-  {
-    title: "Jameson's Irish Whisky",
-  },
-  {
-    title: "Chivas Regal 12yo Blended Scotch Whisky",
-  },
-  {
-    subTitle: "GIN",
+    subTitle: "GIN - $12",
   },
   {
     title: "Brookies Dry",
-    price: "$12",
   },
   {
     title: "Four Pillars Bloody Shiraz",
-    price: "$15",
   },
   {
     title: "Mount Compass Finger Lime & Mint",
-    price: "$15",
   },
   {
     title: "Hellfire Bluff Xmas Spice",
-    price: "$15",
   },
   {
     title: "Fossey's White Frontignac",
-    price: "$15",
   },
   {
     title: "Husk Distillers INK",
-    price: "$15",
   },
   {
     title: "KATUN Cuatro",
-    price: "$15",
-  },  
+  },
 ];

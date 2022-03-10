@@ -5,14 +5,15 @@ import MenuCollapse from "../components/menuCollapse";
 import Footer from "../components/footer";
 import ScrollTopButton from "../components/scrollTopButton.js";
 import { cocktailsData } from "../data/cocktails.js";
-import { dessertData } from "../data/dessert.js";
+// import { dessertData } from "../data/dessert.js";
 import { drinksData } from "../data/drinks.js";
-import { enchiladasData } from "../data/enchiladas.js";
-import { mainsData } from "../data/mains.js";
-import { snackData } from "../data/snacks.js";
+// import { enchiladasData } from "../data/enchiladas.js";
+// import { mainsData } from "../data/mains.js";
+// import { snackData } from "../data/snacks.js";
 import { spiritsData } from "../data/spirits.js";
 import { tacoData } from "../data/tacos.js";
-import { tostadasData } from "../data/tostadas.js";
+// import { tostadasData } from "../data/tostadas.js";
+import { notTacosData } from "../data/notTacos.js";
 
 import "../App.css";
 
@@ -21,12 +22,8 @@ const IndexPage = () => {
     <div>
       <LogoHeader />
       <NavBar />
-      <MenuCollapse menu={tacoData} pageTitle="TACOS $7"></MenuCollapse>      
-      <MenuCollapse menu={tostadasData} pageTitle="TOSTADAS $10"></MenuCollapse>
-      <MenuCollapse menu={enchiladasData} pageTitle="ENCHILADAS $20"></MenuCollapse>
-      <MenuCollapse menu={snackData} pageTitle="SNACKS"></MenuCollapse>
-      <MenuCollapse menu={mainsData} pageTitle="MORE"></MenuCollapse>
-      <MenuCollapse menu={dessertData} pageTitle="DESSERT"></MenuCollapse>
+      <MenuCollapse menu={tacoData} pageTitle="TACOS $8"></MenuCollapse>      
+      <MenuCollapse menu={notTacosData} pageTitle="NOT TACOS"></MenuCollapse>
       <MenuCollapse menu={cocktailsData} pageTitle="COCKTAILS"></MenuCollapse>
       <MenuCollapse menu={drinksData} pageTitle="DRINKS"></MenuCollapse>
       <MenuCollapse menu={spiritsData} pageTitle="SPIRITS"></MenuCollapse>
