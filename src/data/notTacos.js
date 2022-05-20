@@ -35,7 +35,7 @@ export const notTacosData = [
     type: "*",
     description:
       "House-Made Corn Chips, Black Beans, Jalapenos, Slow Cooked Beef, Corn Salsa, Oaxaca Cheese, Meredith Goats Feta",
-    description:
+    opt1:
       "Vego Trade Beef for TVP, Vegan Trade Oaxaca & Meredith for Bio Cheese",
   },
   {

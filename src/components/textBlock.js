@@ -33,40 +33,39 @@ const TextBlock = () => {
         </a></b></em>{" "}
         with your needs and we will get you sorted.
       </p>
-      <table className="opening">
+      <table className="opening">        
         <tr>
           <th>Opening</th>
           <th>Hours</th>
         </tr>
         <tr>
-          <td>Wednesday</td>
-          <td>5PM - 8.30PM</td>
-        </tr>
-        <tr>
-          <td>Thursday</td>
-          <td>5PM - 8.30PM</td>
-        </tr>
-        <tr>
-          <td>Friday</td>
-          <td>5PM - 8.30PM</td>
-        </tr>
-        <tr>
-          <td>Saturday</td>
-          <td>5PM - 8.30PM</td>
-        </tr>
-        <tr>
-          <td>Sunday</td>
-          <td>5PM - 8PM</td>
-        </tr>
-        <tr>
           <td>Monday</td>
-          <td>5PM - 8.30PM</td>
+          <td>4PM - 8.30PM</td>
         </tr>
         <tr>
           <td>Tuesday</td>
           <td>Closed</td>
         </tr>
-        
+        <tr>
+          <td>Wednesday</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>4PM - 8.30PM</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>4PM - 8.30PM</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>4PM - 8.30PM</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>4PM - 8.30PM</td>
+        </tr>
       </table>
     </div>
   );
