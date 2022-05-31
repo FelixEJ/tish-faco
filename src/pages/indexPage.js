@@ -22,26 +22,38 @@ const IndexPage = () => {
     <div>
       <LogoHeader />
       <NavBar />
-      <MenuCollapse menu={tacoData} pageTitle="TACOS $8"></MenuCollapse>      
+      <MenuCollapse menu={tacoData} pageTitle="TACOS $8"></MenuCollapse>
       <MenuCollapse menu={notTacosData} pageTitle="NOT TACOS"></MenuCollapse>
       <MenuCollapse menu={cocktailsData} pageTitle="COCKTAILS"></MenuCollapse>
       <MenuCollapse menu={drinksData} pageTitle="DRINKS"></MenuCollapse>
       <MenuCollapse menu={spiritsData} pageTitle="SPIRITS"></MenuCollapse>
-      <a id="order"
+      <a
+        id="order"
         class="btn btn-primary btn-lg btn-block"
-        href="https://tish-faco.square.site/"
+        href="https://tish-faco-cantina-bellingen.square.site/"
         role="button"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         ORDER ONLINE HERE
       </a>
       <p>
-          Specials menu updated regularly, come visit for the latest local
-          treats!
-        </p>
+        Specials menu updated regularly, come visit for the latest local treats!
+      </p>
       <ScrollTopButton />
       <Footer />
-      <p id="address"><a href="https://goo.gl/maps/xwLV4mbH2pAE21c9A">111 HYDE ST, BELLINGEN NSW 2454</a></p>
-      <a id="phone" href="tel:+61256168426">(02) 56168426</a>
+      <p id="address">
+        <a
+          href="https://goo.gl/maps/xwLV4mbH2pAE21c9A"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          111 HYDE ST, BELLINGEN NSW 2454
+        </a>
+      </p>
+      <a id="phone" href="tel:+61256168426">
+        (02) 56168426
+      </a>
     </div>
   );
 };
