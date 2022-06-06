@@ -3,7 +3,7 @@ import MenuItem from "./menuItem";
 import "./menu.css";
 import { Link } from "react-scroll";
 
-class FoodMenuCollapse extends Component {
+class DrinkMenuCollapse extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
@@ -54,4 +54,4 @@ class FoodMenuCollapse extends Component {
     );
   }
 }
-export default FoodMenuCollapse;
+export default DrinkMenuCollapse;

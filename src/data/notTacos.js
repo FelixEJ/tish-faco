@@ -4,13 +4,20 @@ export const notTacosData = [
     price: "$10",
     type: "(vgn)",
     description: "Served w/ Housemade Smoked Tomatillo Salsa",
+    opt1: "Add guacamole $4"
+  },
+  {
+    title: "Poppers",
+    price: "$8",
+    type: "(v)",
+    description: "Fresh jalapenos, corn flake crumbed and stuffed with Oaxaca and cream cheese and drizzled with chipotle mayo",
   },
   {
     title: "BBQ Street Corn",
     price: "$6",
     type: "(v)*",
     description:
-      "Charred Corn on the Cob Dusted w/ Tish Spice, Melted Oaxaca Cheese & Chipotle Mayo",
+      "Charred corn on the cob dusted w/ tish spice, melted Oaxaca cheese & chipotle mayo",
   },
   {
     title: "Chicken or Cauliflower Wings",
@@ -18,7 +25,6 @@ export const notTacosData = [
     type: "*",
     description:
       "Crispy Fried, Paprika & Cumin Marinated Chicken or Cauliflower, Tossed in a Spicy Mexican Hot Sauce",
-    opt1: "VEGAN OPTION - CAULIFLOWER WINGS",
   },
   {
     title: "Taco Bowl",
@@ -43,14 +49,7 @@ export const notTacosData = [
     price: "$32",
     description:
       "300g Char-Grilled Medium Rare Sirloin Steak, Crispy Fried Potatoes, BBQ Corn, Chimmichurri & Asparagus",
-  },
-  {
-    title: "Churros",
-    price: "$12",
-    type: "(v)",
-    description:
-      "Traditional Latin Doughnuts Dusted in Cinnamon Sugar Served w/ Dulche De Leche & Fruit",
-  },
+  },  
   {
     description: "* = Can be made vegan on request"
   }

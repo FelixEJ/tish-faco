@@ -27,16 +27,17 @@ class FoodMenuCollapse extends Component {
       <div id="frame">
         <div id={pageTitle}></div>
         <Link to={pageTitle} spy={true} smooth={true}>
-          <h1
-            className="menuHeading"
-            onClick={this.toggle}
-          >
+          <h1 className="menuHeading" onClick={this.toggle}>
             <i>{pageTitle}</i>
           </h1>
-          <h3 id="darrow"
-          style={{
-            display: display ? "none" : "inline",
-          }}>&darr;</h3>          
+          <h3
+            id="darrow"
+            style={{
+              display: display ? "none" : "inline",
+            }}
+          >
+            &darr;
+          </h3>
         </Link>
         <div
           className="menuBody"
@@ -49,7 +50,6 @@ class FoodMenuCollapse extends Component {
             return <MenuItem key={index} item={item}></MenuItem>;
           })}          
         </div>
-        
       </div>
     );
   }

@@ -1,7 +1,8 @@
 import React from "react";
 import LogoHeader from "../components/header.js";
 import NavBar from "../components/navBar";
-import MenuCollapse from "../components/menuCollapse";
+import FoodMenuCollapse from "../components/foodMenuCollapse";
+import DrinkMenuCollapse from "../components/drinkMenuCollapse";
 import Footer from "../components/footer";
 import ScrollTopButton from "../components/scrollTopButton.js";
 import { cocktailsData } from "../data/cocktails.js";
@@ -21,12 +22,12 @@ const IndexPage = () => {
   return (
     <div>
       <LogoHeader />
-      <NavBar />
-      <MenuCollapse menu={tacoData} pageTitle="TACOS $8"></MenuCollapse>
-      <MenuCollapse menu={notTacosData} pageTitle="NOT TACOS"></MenuCollapse>
-      <MenuCollapse menu={cocktailsData} pageTitle="COCKTAILS"></MenuCollapse>
-      <MenuCollapse menu={drinksData} pageTitle="DRINKS"></MenuCollapse>
-      <MenuCollapse menu={spiritsData} pageTitle="SPIRITS"></MenuCollapse>
+      <NavBar />      
+      <FoodMenuCollapse menu={tacoData} pageTitle="TACOS $8" />
+      <FoodMenuCollapse menu={notTacosData} pageTitle="NOT TACOS" />
+      <DrinkMenuCollapse menu={cocktailsData} pageTitle="COCKTAILS" />
+      <DrinkMenuCollapse menu={drinksData} pageTitle="DRINKS" />
+      <DrinkMenuCollapse menu={spiritsData} pageTitle="SPIRITS" />
       <a
         id="order"
         class="btn btn-primary btn-lg btn-block"
