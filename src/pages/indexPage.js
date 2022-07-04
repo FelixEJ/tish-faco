@@ -6,7 +6,7 @@ import DrinkMenuCollapse from "../components/drinkMenuCollapse";
 import Footer from "../components/footer";
 import ScrollTopButton from "../components/scrollTopButton.js";
 import { cocktailsData } from "../data/cocktails.js";
-// import { dessertData } from "../data/dessert.js";
+import { dessertData } from "../data/dessert.js";
 import { drinksData } from "../data/drinks.js";
 // import { enchiladasData } from "../data/enchiladas.js";
 // import { mainsData } from "../data/mains.js";
@@ -25,6 +25,7 @@ const IndexPage = () => {
       <NavBar />      
       <FoodMenuCollapse menu={tacoData} pageTitle="TACOS $8" />
       <FoodMenuCollapse menu={notTacosData} pageTitle="NOT TACOS" />
+      <FoodMenuCollapse menu={dessertData} pageTitle="DESSERTS $12" />
       <DrinkMenuCollapse menu={cocktailsData} pageTitle="COCKTAILS" />
       <DrinkMenuCollapse menu={drinksData} pageTitle="DRINKS" />
       <DrinkMenuCollapse menu={spiritsData} pageTitle="SPIRITS" />
