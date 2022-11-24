@@ -64,7 +64,7 @@ const TextBlock = () => {
         </tr>
         <tr>
           <td>Sunday</td>
-          <td>4PM - 8.30PM</td>
+          <td>11AM - 5PM</td>
         </tr>
       </table>
     </div>

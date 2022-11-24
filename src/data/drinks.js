@@ -37,20 +37,26 @@ export const drinksData = [
     price: "$6",
   },
   {
+    title: "Two bays gluten free pale ale can",
+    price: "$7",
+  },
+  {
+    title: "Ask about our craft beers!",
+  },
+  {
     subTitle: "BEER ON TAP $5/$7",
   },
   {
-    title: "Yes Chef Lager - Tish Faco House Lager",
+    title: "Tish Faco’s yes chef lager",
   },
   {
-    title: "XX Dos Equis Mexican Lager",
-  },
-
-  {
-    title: "Great Hops Brewery Ar-Mid-Ale Mid Strength",
+    title: "Tish Faco's fig tree pale ale",
   },
   {
-    title: "Bellingen Brewery Ginger Beer",
+    title: "Great hops XPA",
+  },
+  {
+    title: "Rotating guest beer - see specials board in-store",
   },
   {
     subTitle: "WINES",

@@ -10,46 +10,35 @@ export const cocktailsData = [
     description: "Tequila, Triple Sec, Agave, Lime",
   },
   {
-    title: "Hot & Spicy Margarita",
+    title: "Hot & Smokey  Margarita",
     price: "$17",
-    description: "Chilli Infused Tequila, Lemon Myrtle Infused Cointreau, Lime",
-  },
+    description: "Chilli infused mezcal, lemon myrtle infused cointreau, lime",
+  },  
   {
-    title: "Gin Aperol Punch",
-    price: "$17",
-    description: "Gin, Aperol, Orange Syrup, Mint, Lime",
-  },
+    title: "Northside",
+    price: "$15",
+    description: "Gin, pomegranate, mint, lime",
+  },  
   {
-    title: "Negroni",
+    title: "Mezcal negroni",
     price: "$17",
-    description: "Gin, Vermouth, Campari",
-  },
+    description: "Mezcal, vermouth, campari",
+  },  
   {
     title: "Never Never Iced Tea",
     price: "$20",
     description:
-      "1800 Coconut Tequila, Kraken Spiced Rum, Vodka, Gin, Cointreau, Almond & Mexican Cola",
+      "1800 Coconut tequila, kraken spiced rum, vodka, gin, cointreau, almond, house made cola.",
   },
   {
-    title: "Mojito",
+    title: "Blueberry mojito",
     price: "$15",
-    description: "White Rum, Mint, Lime, Soda",
+    description: "White rum, local blueberries, mint, lime, soda",
   },
   {
-    title: "Tish Faco Bloody Mary/ Ceasar",
+    title: "Espresso Martini",
     price: "$17",
-    description:
-      "Vodka, V8 or Clamato Juice, Lemon, Vegan Worcestershire, Pickle Brine",
-  },
-  {
-    title: "Apple Brandy Sour",
-    price: "$16",
-    description: "Apple Brandy, Lemon, Egg White",
-  },
-  {
-    title: "Espresso Martini XO",
-    price: "$17",
-    description: "Cafe Patron XO, Espolon Silver, Espresso",
+    description: "Cafe patron XO, espolon silver, espresso",
   },
   
 ];

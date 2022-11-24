@@ -1,10 +1,10 @@
 export const notTacosData = [
   {
     title: "House-Made Corn Chips",
-    price: "$10",
+    price: "$12",
     type: "(vgn)",
-    description: "Served w/ Housemade Smoked Tomatillo Salsa",
-    opt1: "Add guacamole $4"
+    description: "",
+    // opt1: ""
   },
   {
     title: "Poppers",
@@ -13,27 +13,34 @@ export const notTacosData = [
     description: "Fresh jalapenos, corn flake crumbed and stuffed with Oaxaca and cream cheese and drizzled with chipotle mayo",
   },
   {
-    title: "BBQ Street Corn",
+    title: "BBQ street corn ribs",
     price: "$6",
     type: "(v)*",
     description:
-      "Charred corn on the cob dusted w/ tish spice, melted Oaxaca cheese & chipotle mayo",
+      "Charred corn ribs, dusted w/ tish spice, melted Oaxaca cheese & chipotle mayo",
   },
   {
     title: "Chicken or Cauliflower Wings",
     price: "$8",
     type: "*",
     description:
-      "Crispy Fried, Paprika & Cumin Marinated Chicken or Cauliflower, Tossed in a Spicy Mexican Hot Sauce",
+      "Crispy fried, chilli & cumin marinated chicken or cauliflower, tossed in a spicy mexican hot sauce.",
+  },
+  {
+    title: "Ceviche ",
+    price: "$12",
+    type: "",
+    description:
+      "Kingfish cured in fresh lime juice w/ avocado, tomato, coriander, cucumber, spanish onion served w/ house made corn chips.",
   },
   {
     title: "Taco Bowl",
     price: "$14",
     type: "(vgn)",
     description:
-      "Quinoa, Rice, Avocado, Blackbeans, Pickled Carrot, Corn Salsa, Jalepenos & Corn Chips",
-    opt1: "Add Chicken, TVP, Beef $4",
-    opt2: "Fish, Squid, Tempeh $6",
+      "Quinoa, rice, avocado, blackbeans, pickled carrot, corn salsa, jalapenos, corn chips.",
+    opt1: "Add Fried chicken or cauliflower, TVP, beef $4",
+    opt2: "Tempura fish, squid, mole pork $6",
   },
   {
     title: "Nachos",

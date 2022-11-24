@@ -1,24 +1,15 @@
-export const dessertData = [
-    {
-        title: "deconstructed glazed pear cheesecake",
-        description: "Drizzled w/ toasted sesame caramel sauce",
-    },
+export const dessertData = [    
     {
         title: "CHURROS",
-        description: "Latin Doughnuts Dusted in Cinnamon Sugar & Served w/ Poached Pear and Chilli Chocolate",
+        description: "Latin donuts dusted in cinnamon sugar & served w/ sangria poached pear and chilli chocolate",
     },
     {
-        title: "Frozen lemon curd icebox",
-        description: "Served w/ olive oil, pistachio, polenta cake & dulche de leche",
+        title: "Vegan margarita cheesecake (vgn)",
+        description: "Coconut based tequila and lime cheesecake",
     },
     {
-        title: "apple crumble creme brulee",
-        description: "Cinnamon & coconut creme, nut crumble, brulee stewed apple",
-    },
-    {
-        title: "chilli chocolate mousse",
-        description: "w/ margarita cream",
+        title: "Chilli chocolate mousse",
+        description: "w/ lemon myrtle & cointreau cream",
         opt1:"ADD a churro - $4"
-    },
-    
+    },    
 ]

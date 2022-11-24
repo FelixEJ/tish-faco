@@ -7,11 +7,11 @@ import Footer from "../components/footer";
 import ScrollTopButton from "../components/scrollTopButton.js";
 import { cocktailsData } from "../data/cocktails.js";
 import { dessertData } from "../data/dessert.js";
-import { drinksData } from "../data/drinks.js";
+// import { drinksData } from "../data/drinks.js";
 // import { enchiladasData } from "../data/enchiladas.js";
 // import { mainsData } from "../data/mains.js";
 // import { snackData } from "../data/snacks.js";
-import { spiritsData } from "../data/spirits.js";
+// import { spiritsData } from "../data/spirits.js";
 import { tacoData } from "../data/tacos.js";
 // import { tostadasData } from "../data/tostadas.js";
 import { notTacosData } from "../data/notTacos.js";
@@ -27,8 +27,8 @@ const IndexPage = () => {
       <FoodMenuCollapse menu={notTacosData} pageTitle="NOT TACOS" />
       <FoodMenuCollapse menu={dessertData} pageTitle="DESSERTS $12" />
       <DrinkMenuCollapse menu={cocktailsData} pageTitle="COCKTAILS" />
-      <DrinkMenuCollapse menu={drinksData} pageTitle="DRINKS" />
-      <DrinkMenuCollapse menu={spiritsData} pageTitle="SPIRITS" />
+      {/* <DrinkMenuCollapse menu={drinksData} pageTitle="DRINKS" /> */}
+      {/* <DrinkMenuCollapse menu={spiritsData} pageTitle="SPIRITS" /> */}
       <a
         id="order"
         class="btn btn-primary btn-lg btn-block"

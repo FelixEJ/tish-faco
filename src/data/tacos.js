@@ -1,57 +1,65 @@
 export const tacoData = [
   {
-    title: "Mushroom",
-    type: "(v)*",
-    description: "Tempura soy mushroom on pasley lentils w/ goats cheese mayo topped with wilted soy enoki.",
+    title: "Fish",
+    type: "",
+    description:
+      "Tempura or grilled fresh local fish on slaw w/ pico de gallo & chipotle mayo.",
   },
   {
-    title: "Korean Sticky Fried Chicken",
+    title: "Karaage Chicken",
     type: "",
-    description: "Crispy fried chicken tossed in sticky korean chilli sauce on house made kimchi topped w/ shallots and toasted sesame seeds.",
+    description:
+      "Crispy fried chicken on wakame salad w/ pickled ginger, shallots, toasted sesame seeds & wasabi mayo.",
   },
   {
     title: "Cheeseburger",
     type: "",
-    description: "Slow cooked local beef, melted cheese on iceberg lettuce w/ pickles, tomato, onion & burger sauce.",
+    description:
+      "Slow cooked local beef, melted cheese on iceberg lettuce w/ pickles, tomato, onion & burger sauce.",
   },
   {
-    title: "Donner Kebab",
+    title: "Reuben",
     type: "",
-    description: "Twice cooked middle eastern spiced lamb on a quinoa tabbouleh w/ minted yogurt & hummus.",
-  },
-  {
-    title: "Duck ",
-    type: "",
-    description: "Twice cooked 5 spiced duck on cucumber sauerkraut w/ apple and ginger beer sauce and glazed & dried orange.",
-  },
-  {
-    title: "Fish",
-    type: "",
-    description: "Tempura or grilled fresh local fish on slaw w/ pico de gallo & chipotle mayo.",
+    description:
+      "Local corned beef on house made sauerkraut w/ pickles, Swiss cheese & russian dressing.",
   },
   {
     title: "Squid",
     type: "",
-    description: "Char grilled squid on thai salad topped w/ satay sauce and bean sprouts, pickled ginger & peanuts.",
+    description:
+      "Chilli & cumin crusted squid on fresh herb, cucumber, chilli salad w/ lemon myrtle aIoli & fresh lime.",
   },
   {
-    title: "Bahn Mi",
+    title: "Mole verde pork",
     type: "",
-    description: "Slow roasted, pulled pork, herbs & chilli, pickled daikon & carrot w/ pork crackle.",
+    description:
+      "Local pork leg braised in green mole sauce on rice & quinoa w/ chilli, lime peanuts.",
   },
   {
-    title: "Tempeh",
+    title: "Korean fried cauliflower",
     type: "(vgn)",
-    description: "Local temari lupin bean tempeh on a wakame salad w/ pickled ginger, wasabi mayo and roasted sesame seeds.",
+    description:
+      "Crispy tempura cauliflower tossed in korean sweet chilli sauce on house made kimchi w/ shallots & sesame seeds.",
   },
   {
-    title: "Haloumi",
+    title: "Mushroom",
+    type: "(vgn)",
+    description: "Tempura mushroom on slaw w/ pico de gallo and chipotle mayo.",
+  },
+  {
+    title: "Middle eastern",
     type: "(v)",
-    description: "Grilled halloumi, char grilled asparagus on slaw w/ davidson plum sauce & corn salsa.",
+    description:
+      "Char grilled eggplant and haloumi on quinoa tabouli w/ hummus, minted yogurt & pomegranate.",
   },
   {
-    title: "EVERYTHING IS GLUTEN FREE!",
+    title: "NEARLY EVERYTHING IS GLUTEN FREE!",
     type: "",
-    description: "* = Can be made vegan on request"
-  }  
+    description: "Ask our staff if you have allergies",
+  },
+  {
+    title: "",
+    type: "",
+    description: "* = Can be made vegan on request",
+  },
 ];
